@@ -9,7 +9,7 @@
 
 
 
-   <mvc:interceptors>
+    <mvc:interceptors>
 		<bean class="com.pda.intecepter.MyInteceptor" />
 	</mvc:interceptors>
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
